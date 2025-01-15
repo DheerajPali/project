@@ -7,7 +7,7 @@ interface ProductCardProps {
   name: string;
   description: string;
   price: number;
-  imageUrl: string;
+  image_url: string;
   onAddToCart: () => void;
 }
 
@@ -16,7 +16,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
   name,
   description,
   price,
-  imageUrl,
+  image_url,
   onAddToCart,
 }) => {
   const cartItems = useStore((state) => state.cartItems);
@@ -25,7 +25,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
   return (
     <div className="bg-white rounded-lg shadow-sm overflow-hidden">
       <img
-        src={imageUrl}
+        src={image_url}
         alt={name}
         className="w-full h-48 object-cover"
       />
