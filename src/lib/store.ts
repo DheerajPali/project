@@ -104,7 +104,7 @@ export const useStore = create<StoreState>()(
           price: 299,
           category: 'medicines',
           stock: 200,
-          image_url: 'https://images.unsplash.com/photo-1616671276441-2f2c277b8bf6?auto=format&fit=crop&q=80'
+          image_url: 'https://www.thehimalayanorganics.in/cdn/shop/files/1_5ba26017-cd95-43ec-bcfd-ac4009f8f771.jpg?v=1733899306'
         },
         {
           id: '4',
